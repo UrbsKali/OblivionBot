@@ -62,7 +62,7 @@ module.exports = {
 					'width': 0,
 				},
 				'fields': [],
-				'timestamp': new Date(year, month - 1, today, 0, 0, 0, 0),
+				'timestamp': new Date(year, month - 1, today),
 			};
 		}
 

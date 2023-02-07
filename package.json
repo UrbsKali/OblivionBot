@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint . --fix",
+    "config": "node config.mjs",
     "deploy": "node ./deploy/deploy.js",
     "deploy-dev": "node ./deploy/deploy-dev.js"
   },
@@ -14,6 +15,7 @@
   "dependencies": {
     "deasync": "^0.1.28",
     "discord.js": "^14.7.1",
+    "inquirer": "^9.1.4",
     "node-schedule": "^2.1.1"
   },
   "devDependencies": {
