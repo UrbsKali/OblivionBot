@@ -1,0 +1,22 @@
+{
+  "name": "oblivionbot",
+  "version": "1.0.0",
+  "description": "The official bot for the Oblivion Discord server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --fix",
+    "deploy": "node ./deploy/deploy.js",
+    "deploy-dev": "node ./deploy/deploy-dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deasync": "^0.1.28",
+    "discord.js": "^14.7.1",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
